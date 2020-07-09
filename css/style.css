@@ -152,9 +152,6 @@ header{
 .identity .intro_img{
 	float: left;
 }
-.id_image img{
-	width: 100%;
-}
 .identity .intro{
 	float: right;
 }
