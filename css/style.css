@@ -233,6 +233,7 @@ header{
 }
 #talkbubble,#talkbubble2 {
 	padding: 30px 70px;
+	border: 1px solid #f1f1f1;
     background: #fff;
     position: relative;
     -moz-border-radius: 10px;
@@ -292,13 +293,13 @@ header{
 }
 .member{
 	margin-top: 60px;
-	margin-right: 5%;
+	margin-right: 4%;
 	width: 30%;
 	float: left;
-	/*border: 1px solid;*/
 }
 .member img{
 	width: 100%;
+	border: 2px solid #fff;
 	border-radius: 50%;
 }
 .member h4{
@@ -353,7 +354,6 @@ header{
 .content i{
 	font-size: 20px;
 	margin: 15px 0;
-	display: block;
 	width: 45%;
 	float: left;
 }
