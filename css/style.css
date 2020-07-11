@@ -281,45 +281,38 @@ header{
 /*sponsor end*/
 /*team start*/
 .team{
-	padding: 80px 0;
+	padding: 100px 0;
 	background-color: #111111;
-	text-align: center;
 }
-.team h1{
+.team .title h1{
 	color: #fff;
 }
-.team p{
-	font-size: 22px;
-}
 .member{
-	margin-top: 60px;
-	margin-right: 4%;
+	margin: 60px 4.5% 50px 0;
 	width: 30%;
 	float: left;
+	text-align: center;
 }
 .member img{
-	width: 100%;
-	border: 2px solid #fff;
+	width: 96%;
+	border: 5px solid #fff;
 	border-radius: 50%;
 }
 .member h4{
-	font-family: BrandonGrotesque-Bold;
-	font-size: 22px;
-	color: #fafafa;
+	font-size: 18px;
+	color: #fff;
 }
 .member p{
-	font-size: 20px;
-	color: #fafafa;
+	color: #fff;
 }
 .member i{
-	margin:5px;
-	padding: 10px;
-	font-size: 20px;
+	font-size: 18px;
 	color: #fff;
+	margin: 5px;
+	padding: 8px 10px;
+	border: 2px solid #fff;
 	border-radius: 50%;
-	border: 1px solid #fff;
-	cursor: pointer;
-	transition: 0.3s;
+	transition: 0.3s
 }
 .member i:hover{
 	background: #fff;
@@ -329,9 +322,10 @@ header{
 	margin-right: 0;
 }
 .description{
-	margin: 20px auto;
+	margin: 0 auto;
 	width: 50%;
 	color: #ebebeb;
+	text-align: center;
 }
 /*team end*/
 /*contact start*/
